@@ -1,0 +1,68 @@
+footer{
+  margin: 0;
+  padding:0;
+}
+footer{
+.icons{
+  position:relative;
+  top:30%;
+  left: 0%;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  padding-top: 25px;
+  font-size: 22px;
+  text-align: right;
+  transform: translate(-350px,0px);
+  transition: all 0.5s;
+&:hover{
+  transform: translate(0px,0px);
+}
+}
+
+i{
+  margin-left: 20px;
+  height: 40px;
+  width: 40px;
+  color:$kleuricon;
+  text-align: center;
+  line-height: 40px;
+}
+
+
+.twitter{
+  background-color:$achtergrondkleurtwitter;
+  color: $tekstkleurfooter;
+}
+
+.linkedin{
+background-color:$achtergrondkleurlinkedin;
+color:$tekstkleurfooter;
+}
+
+.facebook{
+  background-color:$achtergrondkleurfacebook;
+  color: $tekstkleurfooter;
+}
+
+.github{
+  background-color:$achtergrondkleurgithub;
+  color:$tekstkleurfooter;
+}
+
+.laptop-code{
+  background-color:$achtergrondkleurblog;
+  color: $tekstkleurfooter;
+}
+}
+

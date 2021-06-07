@@ -1,0 +1,16 @@
+@media(min-width:768px){
+    main{
+    .grid-container{
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+}
+@media (min-width:1024px){
+    main{
+    .grid-container{
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+    }
+}
+}

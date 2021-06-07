@@ -1,0 +1,160 @@
+body {
+  background-color: #c3cfe2;
+}
+
+header .testimonial-container {
+  background-color: white;
+  height: 500px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 50px;
+  margin-top: 50px;
+  font-family: sans-serif;
+}
+header .tekst-boven {
+  width: 100%;
+  height: 80%;
+  font-size: 20px;
+  text-align: start;
+}
+header p {
+  padding: 25px;
+  line-height: 1.9;
+}
+header .tekst.onder {
+  width: 100%;
+  height: 20%;
+  background-color: #686de0;
+  color: white;
+  padding-top: 60px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+header .tekst.onder h2 {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+header .profielfoto1 {
+  max-width: 120px;
+  border-radius: 50%;
+  position: absolute;
+  border: solid 5px white;
+  transform: translate(128px, 250px);
+}
+
+main .grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  grid-template-areas: "1" "2" "3" "4" "5" "6";
+}
+main .card {
+  position: relative;
+  width: 100%;
+}
+main .card:hover {
+  opacity: 1;
+}
+main .afbeelding {
+  display: block;
+  width: 100%;
+}
+main .card__overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: blue;
+}
+main .card__overlay:hover {
+  opacity: 1;
+}
+main .text {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+footer .icons {
+  position: relative;
+  top: 30%;
+  left: 0%;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+footer li {
+  list-style: none;
+}
+footer a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px;
+  padding-top: 25px;
+  font-size: 22px;
+  text-align: right;
+  transform: translate(-350px, 0px);
+  transition: all 0.5s;
+}
+footer a:hover {
+  transform: translate(0px, 0px);
+}
+footer i {
+  margin-left: 20px;
+  height: 40px;
+  width: 40px;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+}
+footer .twitter {
+  background-color: #00aced;
+  color: white;
+}
+footer .linkedin {
+  background-color: #007bb6;
+  color: white;
+}
+footer .facebook {
+  background-color: #3b5998;
+  color: white;
+}
+footer .github {
+  background-color: #333;
+  color: white;
+}
+footer .laptop-code {
+  background-color: #e17b77;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  main .grid-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 1024px) {
+  main .grid-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}/*# sourceMappingURL=index.css.map */

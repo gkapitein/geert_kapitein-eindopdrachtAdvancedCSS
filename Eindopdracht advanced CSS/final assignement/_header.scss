@@ -1,0 +1,44 @@
+header{
+.testimonial-container {
+    background-color: $achtergrondkleurtekstboven;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: $borderradius;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: sans-serif;
+  }
+  .tekst-boven {
+    width: 100%;
+    height: 80%;
+    font-size: 20px;
+    text-align: start;
+  }
+ p {
+    padding: 25px;
+    line-height: 1.9;
+  }
+  .tekst.onder {
+    width: 100%;
+    height: 20%;
+    background-color: $achtergrondkleurtekstonder;
+    color: $tekstkleurheader;
+    padding-top: 60px;
+    border-bottom-right-radius: $borderradius;
+    border-bottom-left-radius: $borderradius;
+    h2{
+      margin-bottom: 5px;
+      margin-top: 5px;
+    }
+  }
+  .profielfoto1 {
+    max-width: 120px;
+    border-radius: 50%;
+    position: absolute;
+    border: solid 5px $borderkleur;
+    transform: translate(128px, 250px);
+  }
+}
